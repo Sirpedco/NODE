@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node beginner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "express": "nodemon express.js"
+  },
+  "keywords": [
+    "beginners",
+    "node"
+  ],
+  "author": "sirpedco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
